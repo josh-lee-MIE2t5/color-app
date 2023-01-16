@@ -6,10 +6,11 @@ import { Link } from "react-router-dom";
 const styles = {
   root: {
     backgroundColor: "blue",
-    height: "100vh",
+    height: "100%",
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "center",
+    overflow: "auto",
   },
   container: {
     width: "50%",
